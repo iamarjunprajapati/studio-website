@@ -44,3 +44,16 @@ function page4Animation() {
 
 page4Animation();
 
+function swiper(){
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 5,
+        spaceBetween: 30,
+        // centeredSlides: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+}
+
+swiper();
