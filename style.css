@@ -708,4 +708,7 @@ nav {
         padding: 20px;
         margin-bottom: 50px;
     }
+    #loader>h1 {
+        font-size: 2.5rem;
+    }
 }
