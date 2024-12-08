@@ -18,6 +18,56 @@ html {
     /* background-color: rgb(239, 235, 226); */
 }
 
+/* loader */
+#loader{
+    width: 100%;
+    height: 100vh;
+    /* top: -100%; */
+    position: fixed;
+    z-index: 1000;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    transition: 1s all ease;
+}
+#loader>h1{
+    background: linear-gradient(to left, #ff7e5f, #feb47b);
+    color: transparent;
+    background-clip: text;
+    position: absolute;
+    opacity: 0;
+    font-size: 4rem;
+}
+#loader>h1:nth-child(1){
+    animation: loading 2s  ;
+}
+#loader>h1:nth-child(2){
+    animation: loading 2s  ;
+    animation-delay: 2s  ;
+}
+#loader>h1:nth-child(3){
+    animation: loading 2s  ;
+    animation-delay: 4s  ;
+}
+
+@keyframes loading {
+    0%{
+        opacity : 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+
 .bg {
     background-color: rgb(239, 235, 226);
 }

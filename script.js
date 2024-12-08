@@ -62,3 +62,11 @@ function swiper() {
 }
 
 swiper();
+
+function loading(){
+    let loading = document.querySelector('#loader');
+    setTimeout(()=>{
+        loading.style.top = "-100%";
+    },6200)
+}
+loading();
