@@ -41,15 +41,16 @@ html {
     font-size: 4rem;
 }
 #loader>h1:nth-child(1){
-    animation: loading 2s  ;
+    animation: loading 1.4s ;
+    animation-delay:1s ;
 }
 #loader>h1:nth-child(2){
-    animation: loading 2s  ;
-    animation-delay: 2s  ;
+    animation: loading 1.4s  ;
+    animation-delay: 2.4s  ;
 }
 #loader>h1:nth-child(3){
-    animation: loading 2s  ;
-    animation-delay: 4s  ;
+    animation: loading 1.4s  ;
+    animation-delay: 3.8s  ;
 }
 
 @keyframes loading {
